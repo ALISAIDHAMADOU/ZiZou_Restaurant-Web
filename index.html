@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MonRestaurant</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Ton style personnalisé (optionnel) -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">ZiZou_Restaurant</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href="#">Accueil</a></li>
+        <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">À propos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<header>
+  <div class="d-flex h-100 align-items-center justify-content-center flex-column bg-dark bg-opacity-50">
+    <h1 class="display-4">Bienvenue chez ZiZou_Restaurant</h1>
+    <a href="#menu" class="btn btn-warning mt-3">Découvrir notre menu</a>
+  </div>
+</header>
+  
+
+
+<!--section Menu de nos plat-->
+
+<section id="menu" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Notre Menu</h2>
+    <div class="row">
+      <!-- Plat 1 -->
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="images/pizza-margherita-marydisomma-recipe-link-2_1000x.webp" class="card-img-top" alt="Plat 1">
+          <div class="card-body">
+            <h5 class="card-title">Pizza Margherita</h5>
+            <p class="card-text">Une délicieuse pizza à base de tomates fraîches, mozzarella et basilic.</p>
+            <p class="text-muted">8000cfa</p>
+          </div>
+        </div>
+      </div>
+      <!-- Plat 2 -->
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="images/pates-carbonara.webp" class="card-img-top" alt="Plat 2">
+          <div class="card-body">
+            <h5 class="card-title">Pâtes Carbonara</h5>
+            <p class="card-text">Des pâtes savoureuses avec une sauce crémeuse, lardons et parmesan.</p>
+            <p class="text-muted">10000cfa</p>
+          </div>
+        </div>
+      </div>
+      <!-- Plat 3 -->
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="images/Dessert-plat.webp" class="card-img-top" alt="Plat 3">
+          <div class="card-body">
+            <h5 class="card-title">Tiramisu</h5>
+            <p class="card-text">Un dessert italien classique au café, mascarpone et cacao.</p>
+            <p class="text-muted">5000cfa</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
